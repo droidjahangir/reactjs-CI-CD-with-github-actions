@@ -33,7 +33,7 @@ jobs:
 
         # install dependancy if cache node_module doesn't found
       - name: install dependancy
-        run: npm ci
+        run: npm install
 
       - name: List the state of node modules
         continue-on-error: true
