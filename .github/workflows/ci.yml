@@ -34,7 +34,7 @@ jobs:
         # install dependancy if cache node_module doesn't found
       - name: install dependancy
         if: steps.cache-npm.outputs.cache-hit != 'true'
-        run: npm install
+        run: npm ci
 
       - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
         name: List the state of node modules
