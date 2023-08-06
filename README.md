@@ -8,11 +8,22 @@ Globally install surge
 npm install --global surge
 ```
 
+TODO: surge create account
+
 then they give us a link like `lively-pig.surge.sh`
 
 We will build a github workflow look like this
 ![workflow](./workflow.png)
 
 - If a job fail, then workflow create an issue automatically and send a slack notification message.
-- lasdfk
 - If release create then send slack message.
+
+### get surge token
+```
+surge token
+```
+
+### get surge email
+```
+surge whoami
+```
