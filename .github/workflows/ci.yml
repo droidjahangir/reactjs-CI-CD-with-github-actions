@@ -25,13 +25,13 @@ jobs:
         with:
           node-version: "latest"
 
+      - run: pwd
+      - run: ls
+
         # install dependancy if cache node_module doesn't found
       - name: install dependancy
         if: steps.npm-cache.outputs.cache-hit != 'true'
-        run: |
-          pwd  
-          ls
-          npm install
+        run: npm install
 
       - run: npm run format
       - run: npm run format:check
