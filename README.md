@@ -7,7 +7,6 @@ npm install --global surge
 ```
 then they give us a link like `lively-pig.surge.sh`
 
-
 We will build a github workflow look like this
 ![workflow](./workflow.png)
 
