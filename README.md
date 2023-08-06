@@ -14,4 +14,5 @@ We will build a github workflow look like this
 ![workflow](./workflow.png)
 
 - If a job fail, then workflow create an issue automatically and send a slack notification message.
+- lasdfk
 - If release create then send slack message.
