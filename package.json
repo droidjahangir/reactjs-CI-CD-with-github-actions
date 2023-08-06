@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "prettier": "^3.0.1",
     "surge": "^0.23.1"
   }
 }
