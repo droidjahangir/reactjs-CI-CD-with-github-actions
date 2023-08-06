@@ -19,12 +19,17 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      - name: use NodeJs
+
+      - name: install NodeJs
         uses: actions/setup-node/@v3
         with:
           node-version: "latest"
 
-      - run: npm install
+        # install dependancy if cache node_module doesn't found
+      - name: install dependancy
+        if: steps.npm-cache.outputs.cache-hit != 'true'
+        run: npm install
+
       - run: npm run format
       - run: npm run format:check
       - run: npm test -- --coverage
