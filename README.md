@@ -21,7 +21,7 @@ We will build a github workflow look like this
 ![workflow](./workflow.png)
 
 - If a job fail, then workflow create an issue automatically and send a slack notification message.
-- If release create then send slack message.
+- If release create then send slack sms
 
 ### get surge token
 
