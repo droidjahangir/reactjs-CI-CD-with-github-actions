@@ -9,6 +9,10 @@ npm install --global surge
 ```
 
 TODO: surge create account
+**create and deploy app in surge, we need to run this command**
+```
+surge
+```
 
 then they give us a link like `lively-pig.surge.sh`
 
