@@ -34,3 +34,11 @@ surge token
 ```
 surge whoami
 ```
+
+## Release (semantic-release)
+
+install:
+
+```
+npm install --save-dev semantic-release
+```
