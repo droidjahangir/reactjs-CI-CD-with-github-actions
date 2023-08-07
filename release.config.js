@@ -1,5 +1,6 @@
 module.exports = {
   branches: "master",
+
   repositoryUrl:
     "https://github.com/droidjahangir/reactjs-CI-CD-with-github-actions",
   plugins: [
