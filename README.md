@@ -10,6 +10,7 @@ npm install --global surge
 
 TODO: surge create account
 **create and deploy app in surge, we need to run this command**
+
 ```
 surge
 ```
@@ -23,11 +24,13 @@ We will build a github workflow look like this
 - If release create then send slack message.
 
 ### get surge token
+
 ```
 surge token
 ```
 
 ### get surge email
+
 ```
 surge whoami
 ```
