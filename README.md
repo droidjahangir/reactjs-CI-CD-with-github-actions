@@ -34,3 +34,18 @@ surge token
 ```
 surge whoami
 ```
+
+## Release (semantic-release)
+
+install:
+
+```
+npm install --save-dev semantic-release
+```
+
+add file in root directory called something like release.config.js.
+add configuration to this file and see update from this command
+
+```
+npx semantic-release
+```
